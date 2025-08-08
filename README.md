@@ -1,47 +1,70 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Am I The Villian 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Brain not found
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Devu Sunish - Muthoot Institute of Technology and Science
+- Member 2: Adithya KS - Muthoot Institute of Technology and Science
+  
 
 ### Project Description
-[2-3 lines about what your project does]
+A brutally honest web app that tells you whether you’re the innocent victim, a mildly problematic side character, or the full-blown villain of your own story. No sugar-coating, just AI-powered judgment.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+In today’s world, we have no reliable way to confirm if we’re actually the bad guy — except for self-reflection, therapy, or talking to friends (boring).
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+An AI that reads your side of the story and serves judgment with the subtlety of a sledgehammer. It detects sass, drama, and suspicious behavior, then declares your villain status with absolute (over)confidence.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+-Languages used: Python, HTML, CSS, JavaScript
+-Frameworks used: Flask
+-Libraries used: OpenAI API (for GPT), sarcasm detection model, Bootstrap/Tailwind (for styling)
+-Tools used: Git, GitHub, VS Code, virtualenv, browser DevTools
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
 For Software:
-# Installation
-[commands]
+Installation
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/DevuSunish/Am_I_TheVillain-.git
 
-# Run
-[commands]
+# Navigate into the project folder
+cd Am_I_TheVillain-
+
+# Create a virtual environment
+python -m venv villain-env
+
+# Activate the environment
+# On Windows:
+villain-env\Scripts\activate
+# On Mac/Linux:
+source villain-env/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+Run
+bash
+Copy
+Edit
+# Run the Flask app
+python app.py
+Then open your browser and go to:
+
+cpp
+Copy
+Edit
+http://127.0.0.1:5000
 
 ### Project Documentation
 For Software:
@@ -58,7 +81,7 @@ For Software:
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+User inputs → Flask backend → AI analysis → Output verdict.
 
 For Hardware:
 
