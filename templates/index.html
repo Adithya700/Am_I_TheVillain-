@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Am I The Villain?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Am I The Villain? 👀</h1>
+
+    <form method="post">
+        <label for="story">Tell your side of the story:</label><br>
+        <textarea id="story" name="story" rows="10" cols="50" placeholder="Spill the drama here...">{{ story or '' }}</textarea><br><br>
+
+        <label for="mode">Choose your mode:</label><br>
+        <select name="mode" id="mode">
+            <option value="silly">😏 Evil Mode </option>
+            <option value="ai">🧠 Smart Mode </option>
+        </select><br><br>
+
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if result %}
+        <div class="result-box">
+            <h2>Result:</h2>
+            <p>{{ result }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
