@@ -55,70 +55,39 @@ source villain-env/bin/activate
 pip install -r requirements.txt
 Run
 bash
-Copy
-Edit
+
 # Run the Flask app
 python app.py
 Then open your browser and go to:
 
 cpp
-Copy
-Edit
 http://127.0.0.1:5000
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1899" height="900" alt="home" src="https://github.com/user-attachments/assets/95144ba5-16b3-4bde-a636-5f5589dfa87a" />
+*This shows the homepage of the "Am I The Villain?" Analyzer.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1892" height="926" alt="Result1" src="https://github.com/user-attachments/assets/32e7e099-dfec-42d5-8faf-25866a840425" />
+*This shows the analysis result after entering a scenario1.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1894" height="912" alt="Result2" src="https://github.com/user-attachments/assets/7a156b1c-cf11-4644-ac71-78d0ef8f0f81" />
+*This shows the analysis result after entering a scenario2.*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-User inputs → Flask backend → AI analysis → Output verdict.
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/drive/folders/1KvVK3bDrlJs21hR6aAc1wLIgl6JRNVp2?usp=sharing
+You start by typing your story or situation into the input box.Think of it like telling your side of the drama—what happened, how you acted, all the juicy details.You can choose for the evil mood which basically encourage you on all your mistakes and a smart mood which tells you in real if u were right way or not.
+Once you hit the analyze button, the AI reads your story carefully, looking for clues about your behavior.The AI then decides if you’re innocent,roblematic or On a Full-on Villain Arc (yikes, watch out!).The app shows you the verdict on the screen, usually with some fun text or emoji vibes.
+You can try multiple stories, tweak what you say, and see how the AI’s opinion changes.It’s like having a brutally honest friend who doesn’t sugarcoat your actions.
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
-
 
